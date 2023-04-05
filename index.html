@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    /* top nav background*/
+    .topnav {
+        background-color: black;
+        overflow: hidden;
+
+    }
+
+    /* Nav containtaining*/
+    .topnav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 16px;
+        font-size: large;
+
+    }
+
+    /* nav containing hover*/
+    .topnav a:hover {
+        background-color: blue;
+    }
+
+    /*Search bar*/
+    .topnav input {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+    }
+
+    .topnav input:hover {
+        color: red;
+    }
+
+    .title-p {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .center {
+        padding-left: 180px;
+        padding-right: 180px;
+
+    }
+
+    .col-2 {
+        width: 20%;
+        height: 50px;
+        display: flex;
+        float: left;
+    }
+
+    .spc {
+        width: 5%;
+        height: 50px;
+        display: flex;
+        float: left;
+    }
+
+    .img-slide {
+        height: 100px;
+    }
+</style>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="">Home</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Contact.html">Contact</a>
+        <a href="AboutUs.html">AboutUs</a>
+        <a href="">Search</a>
+        <input type="text" placeholder="Search...">
+    </div>
+    <div class="container">
+        <img src="img/b3.jpg">
+    </div>
+    <p class="title-p"><strong>Welcome in our Company for better foods with you and your family</strong></p>
+    <!-- Order picture -->
+    <div class="center">
+
+        <div class="col-2">
+            <a href="Form.html" style="text-decoration: none;"><img class="img-slide" src="img/b5.jpg" alt="">
+                <p>$12.2</p>
+                <p>Pilau</p>
+            </a>
+        </div>
+        <div class="spc"></div>
+        <div class="col-2">
+            <a href="Form.html" style="text-decoration:none"><img class="img-slide" src="img/b10.jpg" alt="">
+                <p>$60.0</p>
+                <p>Beans Rice</p>
+
+        </div>
+        <div class="spc"></div>
+        <div class="col-2">
+            <a href="Form.html" style="text-decoration:none"><img class="img-slide" src="img/b8.jpg" alt="">
+                <p>$49.5</p>
+                <p>Chicken Rice</p>
+
+        </div>
+        <div class="spc"></div>
+        <div class="col-2">
+            <a href="Form.html" style="text-decoration:none"><img class="img-slide" src="img/b9.jpg" alt="">
+                <p>$98.5</p>
+                <p>Birian</p>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
